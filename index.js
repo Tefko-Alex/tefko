@@ -1,2 +1,12 @@
-let name = prompt("What is your name?", ["Ваня"]);
-alert(name);
+input = prompt("число");
+
+simpleNumbers:
+    for (i = 2; i <= +input; i++ ) {
+
+    for (j = 2; j < i; j++) {
+        if(i % j == 0 ) {
+            continue simpleNumbers;
+        }
+    }
+    alert(i);
+}
