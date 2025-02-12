@@ -1,12 +1,15 @@
-input = prompt("число");
-
-simpleNumbers:
-    for (i = 2; i <= +input; i++ ) {
-
-    for (j = 2; j < i; j++) {
-        if(i % j == 0 ) {
-            continue simpleNumbers;
-        }
+function checkAge(age) {
+    if (age > 18) {
+        return true;
+    } else {
+        return confirm('Родители разрешили?');
     }
-    alert(i);
+}
+
+function checkAge(age) {
+    return (age > 18) ? true  : confirm('Родители разрешили?');
+}
+
+function checkAge(age) {
+    return (age > 18) || confirm('Родители разрешили?');
 }
