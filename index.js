@@ -1,5 +1,2 @@
-let admin;
-let name;
-name = "Джон";
-admin = name;
-alert(admin);
+let name = prompt("What is your name?", ["Ваня"]);
+alert(name);
