@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    position: absolute;
+    width: 100%;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    width: 296px;
+}
+
+.social-icons img {
+    width: 30px;
+    margin-left: 30px;
+}
+
+.hero {
+    height: 100vh;
+    background-image: url('sources/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text {
+    background-color: #F8F200;
+    font-family: "Archangelsk", sans-serif;
+    padding: 20px;
+    max-width: 400px;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 50px;
+    right: 250px;
+
+}
+
+.hero-text pre {
+    font-family: "Arhangelsk", sans-serif;
+    white-space: pre-line;
+}
+
+button {
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-info {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    background-color: #000000;
+    color: #F8F200;
+    padding: 10px 20px;
+}
+
+.button-info:hover {
+    background-color: #302f2f;
+}
+
+
+@font-face {
+    font-family: "Arhangelsk";
+    src: url("fonts/Archangelsk.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
